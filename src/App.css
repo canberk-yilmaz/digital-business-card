@@ -66,4 +66,102 @@ h6 {
 #root,
 #__next {
   isolation: isolate;
+  height: 100%;
+}
+/*
+CSS RESET ENDS
+*/
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+
+.App {
+  height: 100%;
+  background-color: #23252c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+}
+.container {
+  max-width: 317px;
+  margin: 0 auto;
+  background-color: #1a1b21;
+}
+
+.info {
+  text-align: center;
+}
+
+.info > h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.info > h3 {
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: #fff;
+  color: #f3bf99;
+}
+
+.info > a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.button {
+  padding: 9px 13px 9px 11px;
+  width: 115px;
+  border-radius: 8px;
+}
+
+.button__email {
+  margin-right: 1rem;
+}
+.button__linkedin {
+  background-color: #5093e2;
+  color: #fff;
+  border: 1px solid #5093e2;
+}
+
+.info-button-container > button > i {
+  margin-right: 9.6px;
+}
+.info-button-container > button > a {
+  text-decoration: none;
+  color: inherit;
+}
+.about-container {
+  padding: 1rem 2.25rem;
+}
+
+.about-header {
+  font-size: 1rem;
+  font-weight: 700;
+}
+.about-text {
+  font-size: 0.75rem;
+}
+
+.interests-container {
+  padding: 0rem 2.25rem 1rem 2.25rem;
+}
+
+.interests-header {
+  font-size: 1rem;
+  font-weight: 700;
+}
+.interests-text {
+  font-size: 0.75rem;
+}
+
+.footer-container {
+  background-color: #161619;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  height: 4rem;
 }
