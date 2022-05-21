@@ -97,6 +97,7 @@ CSS RESET ENDS
   font-size: 1.5rem;
   font-weight: 700;
   color: #fff;
+  margin-top: 21px;
 }
 
 .info > h3 {
@@ -104,6 +105,8 @@ CSS RESET ENDS
   font-weight: 400;
   color: #fff;
   color: #f3bf99;
+  margin-top: 6px;
+  margin-bottom: 9px;
 }
 
 .info > a {
@@ -112,6 +115,7 @@ CSS RESET ENDS
 }
 
 .button {
+  margin-top: 15px;
   padding: 9px 13px 9px 11px;
   width: 115px;
   border-radius: 8px;
@@ -134,7 +138,7 @@ CSS RESET ENDS
   color: inherit;
 }
 .about-container {
-  padding: 1rem 2.25rem;
+  padding: 2rem 2.25rem 1rem 2.25rem;
 }
 
 .about-header {
@@ -146,7 +150,7 @@ CSS RESET ENDS
 }
 
 .interests-container {
-  padding: 0rem 2.25rem 1rem 2.25rem;
+  padding: 0rem 2.25rem 1.5rem 2.25rem;
 }
 
 .interests-header {
@@ -164,4 +168,8 @@ CSS RESET ENDS
   justify-content: center;
   gap: 1rem;
   height: 4rem;
+  color: #918e9b;
+}
+.footer-container > a {
+  color: inherit;
 }
