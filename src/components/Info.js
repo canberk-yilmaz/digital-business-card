@@ -21,9 +21,7 @@ export default function Info() {
           <i className="fa fa-envelope" aria-hidden="true"></i> Email
         </Button>
         <Button
-          onClick={() =>
-            (window.open = "https://linkedin.com/in/canberkyilmaz, '_blank')}")
-          }
+          onClick={() => window.open(`https://linkedin.com/in/canberkyilmaz`)}
           className="button button__linkedin"
         >
           <i className="fab fa-linkedin" aria-hidden="true"></i>
