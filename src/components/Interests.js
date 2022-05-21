@@ -5,8 +5,8 @@ export default function Interests() {
     <div className="interests-container">
       <h1 className="interests-header">Interests</h1>
       <p className="interests-text">
-        Food expert. Music scholar. Reader. Internet fanatic. Bacon buff.
-        Entrepreneur. Travel geek. Pop culture ninja. Coffee fanatic.
+        Coding enthusiast. Guitar player. Reader. Internet fanatic. Skating
+        enthusiast. Travel geek. Coffee fanatic. Cat lover.
       </p>
     </div>
   );
