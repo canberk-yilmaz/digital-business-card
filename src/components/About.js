@@ -5,11 +5,11 @@ export default function About() {
     <div className="about-container">
       <h1 className="about-header">About</h1>
       <p className="about-text">
-        I am a frontend developer with a particular interest in making things
-        simple and easy to understand. I transitioned to the sector after
-        working 7 years as an electrical engineer on worksites. I try to keep up
-        with security and best practices, and am always looking for new things
-        to learn.
+        I am a front-end developer with a particular interest in making things
+        simple and easy to understand. I transitioned into software development
+        after working seven years as an electrical engineer on worksites. I try
+        to keep up with security and best practices. I am always looking for new
+        things to learn.
       </p>
     </div>
   );

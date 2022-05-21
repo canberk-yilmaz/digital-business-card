@@ -116,8 +116,14 @@ CSS RESET ENDS
   text-decoration: none;
   color: #fff;
 }
-
+.info-button-container {
+  margin: 0 36px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .button {
+  cursor: pointer;
   margin-top: 15px;
   padding: 9px 13px 9px 11px;
   width: 115px;
@@ -125,7 +131,7 @@ CSS RESET ENDS
 }
 
 .button__email {
-  margin-right: 1rem;
+  color: #1e1f26;
 }
 .button__linkedin {
   background-color: #5093e2;

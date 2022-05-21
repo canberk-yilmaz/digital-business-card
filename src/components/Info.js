@@ -15,15 +15,19 @@ export default function Info() {
       </a>
       <div class="info-button-container">
         <Button
+          onClick={() => (window.location = "mailto:cyilmaz089@gmail.com")}
           className="button button__email"
-          style={{ "margin-right": "1rem" }}
         >
-          <i className="fa fa-envelope" aria-hidden="true"></i>{" "}
-          <a href="mailto:cyilmaz089@gmail.com" target="blank">Email</a>
+          <i className="fa fa-envelope" aria-hidden="true"></i> Email
         </Button>
-        <Button className="button button__linkedin">
+        <Button
+          onClick={() =>
+            (window.open = "https://linkedin.com/in/canberkyilmaz, '_blank')}")
+          }
+          className="button button__linkedin"
+        >
           <i className="fab fa-linkedin" aria-hidden="true"></i>
-          <a href="https://linkedin.com/in/canberkyilmaz" target="blank">LinkedIn</a>
+          LinkedIn
         </Button>
       </div>
     </div>
