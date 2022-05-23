@@ -1,21 +1,20 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
 
+const logo = require("../assets/canberk-yilmaz-photo.webp");
+
 export default function Info() {
   return (
-    <div class="info">
-      <img
-        src={require("../assets/canberk-yilmaz-photo.JPG")}
-        alt="canberk-yilmaz"
-      />
+    <div className="info">
+      <img src={logo} alt="canberk-yilmaz" loading="lazy" />
       <h1>Canberk Yilmaz</h1>
       <h3>Frontend Developer</h3>
       <a href="https://canberkyilmaz.com" target="blank">
         canberkyilmaz.com
       </a>
-      <div class="info-button-container">
+      <div className="info-button-container">
         <Button
-          onClick={() => (window.location = "mailto:cyilmaz089@gmail.com")}
+          onClick={() => (window.location.href = "mailto:cyilmaz089@gmail.com")}
           className="button button__email"
         >
           <i className="fa fa-envelope" aria-hidden="true"></i> Email
